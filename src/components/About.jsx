@@ -3,7 +3,7 @@ import Profil from '../assets/PROFIL.png';
 
 const About = () => {
     return (
-        <div>
+        <div id='about-me' className='about'>
             {/*Image profil*/}
             <div>
                 <img src={Profil} alt="profil" />

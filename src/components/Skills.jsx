@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div>
+        <div id='skills' className='skills'>
             <h2>Skills</h2>
             {/* To Add to swiper */}
             <div>

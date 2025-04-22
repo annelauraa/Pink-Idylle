@@ -13,9 +13,12 @@ import CV from './components/CurriculumVitae'
 function App() {
 
   return (
-    <> 
-      <Header />
-      <Hero />
+    <>
+      <div id="home" className='home'>
+        <Header />
+        <Hero />
+      </div>
+
       <Skills />
       <About />
       <Testimonials />

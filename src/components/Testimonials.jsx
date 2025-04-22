@@ -2,7 +2,7 @@ import React from 'react';
 
 const Testimonials = () => {
     return (
-        <div>
+        <div id='testimonials' className='testimonials'>
             <h2>What collaborators say of me ...</h2>
 
             {/* To multiple*/}
