@@ -10,7 +10,6 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  padding: 2em;
 
 
   --primary-color : #D892A0;
@@ -18,7 +17,7 @@
 }
 
 body {
-  background-image: url('./assets/FOND.png');
+  background-image: url('./assets/IMG/FOND.png');
   background-position: fixed;
   background-repeat: no-repeat; 
   background-size: cover;
@@ -28,19 +27,8 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-family: 'Konkhmer Sleokchher', sans-serif;
-  font-size: 4.5em;
-  font-weight: 700;
-}
 
-.adelia {
-  font-family: 'Adelia', sans-serif;
-  font-size: 0.6em;
-  font-weight: 200;
-  color: #D892A0;
 
-}
 /* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

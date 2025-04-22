@@ -1,6 +1,6 @@
 import React from 'react';
 import {My_Firstname,My_Job, } from '../constant';
-import Hero_image from '../assets/HERO.png'
+import Hero_image from '../assets/IMG/HERO.png'
 import { MdEmail } from 'react-icons/md';
 
 const Hero = () => {

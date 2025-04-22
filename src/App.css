@@ -10,10 +10,11 @@
 
 .btn-primary {
   @apply bg-[var(--primary-color)] text-white font-bold py-3 px-5 rounded-3xl my-2 cursor-pointer flex gap-2 justify-center items-center;
+
 }
 
 .btn-primary:hover {
-  @apply bg-[var(--secondary-color)] text-white;
+  @apply bg-[var(--secondary-color)] text-white scale-102 transition-all duration-300;
 }
 
 .btn-secondary {
@@ -26,7 +27,7 @@
 
 
 nav {
-  @apply flex justify-between items-center bg-[var(--primary-color)] text-white shadow-md py-4 px-25 h-fit rounded-4xl;
+  @apply flex justify-between items-center bg-[var(--primary-color)] text-white shadow-md py-4 px-15 mr-10 h-fit rounded-4xl;
   /* position: fixed;
   right: 50;
   top: 50; */
@@ -78,7 +79,7 @@ nav {
 }
 
 .home {
-  @apply min-h-screen;
+  @apply min-h-[60vh] py-10 px-5;
   position: relative;
   z-index: 1;   
 }
@@ -89,4 +90,18 @@ nav {
   font-weight: 200;
   color: #D892A0;
 
+}
+
+/* Skills Section  */
+.skills {
+  @apply min-h-[100vh]  flex flex-col items-start justify-center px-50 py-5;
+  background-image: url('./assets/IMG/FOND-SKILLS.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.skills h2 {
+  @apply text-2xl text-gray-500 my-10;
+  font-weight: 400;
 }

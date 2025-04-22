@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import logo from '../assets/LOGO.png'; // Assuming logo.png is in the assets folder
+import logo from '../assets/IMG/LOGO.png'; // Assuming logo.png is in the assets folder
 
 const Header = () => {
     return (
