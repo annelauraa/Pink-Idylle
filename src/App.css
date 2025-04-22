@@ -1,42 +1,51 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+@import "tailwindcss";
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  height: 20vmin;
+  pointer-events: none;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-image {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+
+.btn-primary {
+  @apply bg-[var(--primary-color)] text-white font-bold py-2.5 px-5 rounded-3xl mx-1 cursor-pointer;
 }
 
-.card {
-  padding: 2em;
+.btn-primary:hover {
+  @apply bg-[var(--secondary-color)] text-white;
 }
 
-.read-the-docs {
-  color: #888;
+.btn-secondary {
+  @apply bg-[var(--secondary-color)] text-white font-bold py-2.5 px-5 rounded-3xl mx-1 cursor-pointer;
+}
+
+.btn-secondary:hover {
+  @apply bg-[var(--primary-color)] text-white;
+}
+
+
+nav {
+  @apply flex justify-between items-center bg-[var(--primary-color)] text-white shadow-md py-4 px-10 h-fit rounded-4xl;
+  /* position: fixed;
+  right: 50;
+  top: 50; */
+}
+
+.header {
+  @apply flex justify-between  items-center px-10 text-center text-white;
+  position: relative;
+}
+
+.header ul {
+  @apply flex justify-between items-center gap-8;
+  list-style: none;
+}
+
+.header ul li {
+  @apply cursor-pointer
 }
