@@ -1,19 +1,21 @@
 import React from 'react';
 import {My_Firstname,My_Job, } from '../constant';
 import Hero_image from '../assets/IMG/HERO.png'
-import { MdEmail } from 'react-icons/md';
-
+import { MdArrowForwardIos } from 'react-icons/md';
+import { Link } from 'react-scroll';
 const Hero = () => {
     return (
         <div id='hero' className='hero'>
             
             {/* Hero text */}
             <div className='hero-text'>
-                <h1><span className='text-[var(--primary-color)]'>Hello,</span> <br /><span className='adelia'>I'm</span><span className='text-in-highlight'></span> {My_Firstname}</h1>
+                <h1><span className='hello-text'>Hello,</span> <br /><span className='adelia'>I'm</span> {My_Firstname}</h1>
                 <p className='job-title'>{My_Job}</p>
                 {/* <p>Explore my work and get to know me better.</p> */}
                 <div className='hero-buttons'>
-                    <button className='btn-primary'>Contact me <MdEmail /> </button>
+                    <Link to="contact" smooth={true} duration={600}>
+                    <button className='btn-primary'>Contact me <MdArrowForwardIos /></button>
+                    </Link>
                 </div>
             </div>
 

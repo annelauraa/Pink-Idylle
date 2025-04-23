@@ -20,12 +20,13 @@ function App() {
       </div>
 
       <Skills />
+      <Projects />
       <About />
       <Testimonials />
-      <Contact />
-      <Footer />
-      <CV />
-      <Projects />
+      <div className='page-bottom'>
+        <Contact />
+        <Footer />
+      </div>
     </>
   )
 }
