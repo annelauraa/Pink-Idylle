@@ -1,12 +1,72 @@
-# React + Vite
+# 🎀 Pink Idylle — Template Portfolio React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Pink Idylle** est un template de portfolio moderne et élégant, conçu pour les développeurs, designers ou freelances souhaitant présenter leur profil de manière professionnelle. Développé avec **React** et **Vite**, il offre une performance optimale et une expérience utilisateur fluide.
 
-Currently, two official plugins are available:
+🔗 [Démo en ligne](https://pink-idylle.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Fonctionnalités principales
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎨 Design responsive et épuré
+- ⚛️ Développement avec React + Vite
+- 💨 Intégration de Tailwind CSS pour un style rapide et personnalisable
+- 🧩 Composants modulaires et réutilisables
+- 📄 Section CV interactive avec téléchargement en PDF
+- 🌐 Déploiement facile sur Vercel ou Netlify
+
+---
+
+## 🛠️ Technologies utilisées
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Framer Motion](https://www.framer.com/motion/) (pour les animations)
+- [ESLint](https://eslint.org/) (avec configuration personnalisée)
+
+---
+
+## 🚀 Installation locale
+
+1. **Cloner le dépôt :**
+
+   ```bash
+   git clone https://github.com/annelauraa/Pink-Idylle.git
+   cd Pink-Idylle
+
+
+
+1.Installer les dépendances :
+
+npm install
+
+2.Lancer le serveur de développement :
+
+npm run dev
+
+
+🧾 Structure du projet
+
+Pink-Idylle/
+├── public/
+│   └── assets/           # Images et fichiers statiques
+├── src/
+│   ├── components/       # Composants React réutilisables
+│   ├── App.jsx           # Composant principal
+│   └── main.jsx          # Point d'entrée de l'application
+├── index.html            # Fichier HTML principal
+├── package.json          # Fichier de configuration des dépendances
+├── vite.config.js        # Configuration de Vite
+└── README.md             # Ce fichier
+
+📦 Déploiement
+
+Ce template est prêt pour un déploiement sur des plateformes comme Vercel ou Netlify. Il suffit de connecter votre dépôt GitHub et de suivre les instructions de déploiement de la plateforme choisie.
+📄 Licence
+
+Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier et de le distribuer à des fins personnelles ou commerciales.
+🙏 Remerciements
+
+Développé avec ❤️ par Laingo Tsiory
