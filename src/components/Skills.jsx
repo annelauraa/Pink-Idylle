@@ -48,7 +48,7 @@ const Skills = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     return (
-        <div id='skills' className='skills'>
+        <div id='skills' className='skills w-full'>
             <h2 className='pt-15'>My Skills</h2>
             <div className='sm:w-full max-sm:w-full'>
                 <Swiper

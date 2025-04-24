@@ -20,14 +20,13 @@
   }
 
   #root {
-    @apply flex flex-col items-center justify-center w-full p-0;
+    @apply flex flex-col items-center justify-center w-[100vw] p-0;
   }
 
   body {
     background-image: url('./assets/IMG/FOND.png');
     background-position: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     place-items: center;
     min-height: 100vh;
@@ -62,8 +61,11 @@
     @apply bg-[var(--primary-color)] text-white;
   }
 
+  .active {
+    @apply text-[#ffb2c1] font-bold ;
+  }
 
-  nav {
+ nav {
     @apply flex justify-between items-center bg-[var(--primary-color)] text-white shadow-md py-4 px-15 mr-10 h-fit rounded-4xl;
   }
 
@@ -79,7 +81,7 @@
   }
 
   .header ul li {
-    @apply cursor-pointer
+    @apply cursor-pointer hover:scale-105 transition ease-in-out
   }
 
   .hero {
@@ -129,7 +131,7 @@
 
   /* Skills Section  */
   .skills {
-    @apply min-h-[100vh] flex flex-col gap-3 items-start justify-center px-50 py-5;
+    @apply min-h-[100vh]  flex flex-col gap-3 items-start justify-center px-50 py-5 ;
     background-image: url('./assets/IMG/FOND-SKILLS.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -142,7 +144,7 @@
   }
 
   .SkillsSwiper {
-    @apply max-w-200 mx-auto
+    @apply max-w-fit
   }
 
   .swiper-slide-skills h3 {
@@ -164,11 +166,11 @@
 
   /* About-me Section  */
   .about {
-    @apply bg-pink-50 flex flex-col lg:px-40 lg:py-20 lg:min-h-[100vh] justify-center items-center gap-10 lg:mt-10 text-center;
+    @apply bg-pink-50 flex flex-col lg:px-40 lg:py-20 lg:min-h-[100vh] justify-center items-center gap-10 lg:mt-10 text-center lg:my-20;
   }
 
   .profil {
-    @apply rounded-full w-[20vw]
+    @apply rounded-full w-[22vw]
   }
 
   .about h2 {
@@ -177,7 +179,7 @@
   }
 
   .about p {
-    @apply text-gray-500  my-5 lg:w-[80%] m-auto text-center;
+    @apply text-gray-500  my-10 lg:w-[60%] mx-auto  text-center;
   }
 
   .about button {
@@ -187,6 +189,12 @@
   .about .social-media {
     @apply w-full m-auto flex items-center justify-center my-5  
   }
+.CV {
+  background-image: url('./assets//IMG/FOND-CV.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
   /* Testimonial Section  */
   .testimonials {
     @apply py-10
@@ -286,11 +294,11 @@
   }
 
   .project-image {
-    @apply w-[40%] h-[400px] rounded-lg overflow-hidden relative flex items-center justify-center
+    @apply w-[100%] h-[400px] rounded-lg overflow-hidden relative flex items-center justify-center
   }
 
   .current-project-image {
-    @apply object-cover h-auto w-[30em] flex items-center justify-center;
+    @apply object-cover h-auto w-[40em] flex items-center justify-center;
   }
 
   .main-content {
@@ -339,7 +347,7 @@
 
 
   /* Responsive Tablette */
-  @media (max-width: 1024px) {
+  @media (max-width: 1079px) {
     .hero {
       @apply  pt-15 px-25;
     }
@@ -360,7 +368,7 @@
       font-size: 3em;
     }
     .about {
-      @apply flex-col items-center w-full px-10 py-5 m-auto text-center;
+      @apply flex-col items-center w-full px-10 py-15 m-auto my-30 text-center;
     }
 
     .about h2 {
@@ -468,7 +476,11 @@
       min-height: fit-content;
     }
 
-    
+    .swiper-slide-skills p {
+    @apply w-full
+    }
+
+
     .contact input,
     .contact textarea {
       @apply w-full;
@@ -491,7 +503,7 @@
     }
 
     .main-content {
-      @apply flex flex-col justify-center items-center gap-8 w-full h-full px-8;
+      @apply flex flex-col justify-center items-center gap-8 w-[100vw];
     }
 
     .project-item-container {
@@ -503,20 +515,20 @@
     }
 
     .projects {
-      @apply h-auto flex flex-col items-center justify-center py-25;
+      @apply h-auto flex flex-col items-center justify-center py-25 m-0;
     }
 
 
     .project-image {
-      @apply w-[90%] h-[200px] rounded-lg overflow-hidden relative flex items-center justify-center;
+      @apply w-[100vw] h-[200px] m-0 relative flex items-center justify-center;
     }
 
     .current-project-image {
-      @apply object-cover h-auto w-[90%] flex items-center justify-center;
+      @apply object-cover h-auto w-[90vw] flex items-center justify-start;
     }
 
     .Swiper-Slide-Projects .main-container {
-      @apply flex-col items-center justify-center py-10 px-4 text-center;
+      @apply flex-col items-center justify-start py-1 text-center w-[80vw];
     }
 
     .Swiper-Slide-Projects .main-container h3 {
@@ -524,7 +536,7 @@
     }
 
     .Swiper-Slide-Projects .main-container p {
-      @apply  text-center ;
+      @apply  text-center p-10 w-[80vw];
     }
 
 
@@ -544,5 +556,11 @@
       @apply w-[90%]
     }
 
+    .CV-header {
+      @apply flex flex-col
+    }
+    .CV-header img {
+      @apply w-[100] h-[100]
+    }
   }
 }
