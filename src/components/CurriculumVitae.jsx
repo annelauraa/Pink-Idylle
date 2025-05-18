@@ -15,10 +15,10 @@ const primaryColor = '#D892A0';
 
 const CurriculumVitae = () => {
     return (
-        <div id='CV' className=" CV p-4 sm:p-6 text-gray-800 max-w-3xl m-auto max-h-[85vh] overflow-auto bg-white rounded-2xl shadow-lg text-start">
+        <div id='CV' className=" CV p-6 sm:p-6 text-gray-800 max-w-3xl m-auto max-h-[85vh] overflow-auto bg-white rounded-2xl shadow-lg text-start">
 
             {/* Photo and name */}
-            <div className="CV-header flex justify-between items-center gap-10 sm:gap-6 mb-6">
+            <div className="CV-header flex justify-between items-center gap-8 sm:gap-6 mb-6 px-10 py-8">
                 <img
                     src={Profil}
                     alt="Laingo Tsiory"
@@ -27,8 +27,9 @@ const CurriculumVitae = () => {
                 />
 
                 <div>
-                    <h3 className=" text-[2.5em] font-bold text-gray-600">Laingo Tsiory</h3>
-                    <span className="text-lg text-gray-500 text-start ">
+                    <h3 className=" text-[2.5em] font-bold text-gray-600 CV_name">Laingo Tsiory <br /> <span className='text-pink-400 autography'>Anne Laura</span></h3>
+                    <br />
+                    <span className="text-md text-gray-500 text-start ">
                         Frontend Developer | Graphic Designer | Content Writer
                     </span>
                 </div>

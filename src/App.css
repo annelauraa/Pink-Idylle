@@ -7,6 +7,10 @@
   font-family: 'Adelia';
   src: url('./assets/FONT/adelia.ttf');
 }
+@font-face {
+  font-family: 'Autography';
+  src: url('./assets/FONT/Autography.otf');
+}
 
 @layer base {
   :root {
@@ -128,6 +132,13 @@
     color: #D892A0;
 
   }
+  .autography {
+    font-family: 'Autography', sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    color: #D892A0;
+
+  }
 
   /* Skills Section  */
   .skills {
@@ -194,7 +205,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.CV_name {
+    line-height: 0.8em !important;
+}
   /* Testimonial Section  */
   .testimonials {
     @apply py-10
