@@ -7,6 +7,8 @@ import 'swiper/css/pagination'
 import img1 from '../assets/IMG/projects-representation-image/Project1.png'
 import img2 from '../assets/IMG/projects-representation-image/Project2.png'
 import img3 from '../assets/IMG/projects-representation-image/Project3.png'
+import img4 from '../assets/IMG/projects-representation-image/Project4.png'
+import img5 from '../assets/IMG/projects-representation-image/Project5.png'
 import { techLogos } from '../constant'
 
 const projects = [
@@ -31,6 +33,22 @@ const projects = [
         technologies: ['VueJS', 'Bootstrap', 'Symfony', 'MySQL', 'Figma'],
         image: img3
     }
+    ,
+    {
+        title: 'FALCON TEMPLE – Interface Redesign',
+        description: "Redesigned the interface of Falcon Temple using Webflow and Figma. The goal was to modernize the layout and enhance user experience while preserving brand identity.",
+        github: '',
+        technologies: ['Webflow', 'Figma'],
+        image: img5
+    },
+    {
+        title: 'IALEFA – Front-End Redesign',
+        description: "Led a front-end revamp of IALEFA's website using the Divi theme in WordPress. Focused on improving visual hierarchy, responsiveness, and content structure for better usability.",
+        github: '',
+        technologies: ['WordPress', 'Figma'],
+        image: img4
+    }
+
 ]
 
 const Projects = () => {

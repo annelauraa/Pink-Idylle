@@ -38,4 +38,5 @@ export const techLogos = {
   Facebook: " https://cdn.worldvectorlogo.com/logos/facebook-3-3.svg",
   LinkedIn: "https://cdn.worldvectorlogo.com/logos/linkedin-icon.svg",
   Pinterest: "https://cdn.worldvectorlogo.com/logos/pinterest-3.svg",
+  Webflow : "https://cdn.worldvectorlogo.com/logos/webflow-logo-1.svg",
 }
