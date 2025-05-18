@@ -57,7 +57,7 @@ const CurriculumVitae = () => {
                 </section>
                 {/* Skills & Tech */}
                 <section className="mb-6">
-                    <h2 className="text-xl font-semibold flex items-center gap-2">
+                    <h2 className="text-xl font-semibold flex items-center gap-2 text-start">
                         <FaGlobe color={primaryColor} /> Skills & Technologies
                     </h2>
                     <span className="text-sm mt-2">
