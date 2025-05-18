@@ -18,7 +18,7 @@ const CurriculumVitae = () => {
         <div id='CV' className=" CV p-6 sm:p-6 text-gray-800 max-w-3xl m-auto max-h-[85vh] overflow-auto bg-white rounded-2xl shadow-lg text-start">
 
             {/* Photo and name */}
-            <div className="CV-header flex justify-between items-center gap-8 sm:gap-6 mb-6 px-10 py-8">
+            <div className="CV-header flex justify-between items-center gap-8 sm:gap-6 mb-6 lg:px-10 py-8">
                 <img
                     src={Profil}
                     alt="Laingo Tsiory"
