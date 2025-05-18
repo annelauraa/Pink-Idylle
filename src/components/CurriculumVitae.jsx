@@ -26,12 +26,12 @@ const CurriculumVitae = () => {
                     style={{ borderColor: primaryColor }}
                 />
 
-                <div>
+                <div className='pt-10'> 
                     <h3 className=" text-[2.5em] font-bold text-gray-600 CV_name sm:text-center">Laingo Tsiory <br /> <span className='text-pink-400 autography'>Anne Laura</span></h3>
-                    <br />
-                    <span className="text-md text-gray-500 text-start ">
+                    {/* <br /> */}
+                    <p className="text-md text-gray-500 text-center">
                         Frontend Developer | Graphic Designer | Content Writer
-                    </span>
+                    </p>
                 </div>
 
             </div>
