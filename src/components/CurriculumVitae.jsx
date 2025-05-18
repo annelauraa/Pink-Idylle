@@ -10,7 +10,7 @@ import {
     FaUser,
     FaGraduationCap
 } from 'react-icons/fa';
-import Profil from '../assets/IMG/PROFIL.png'
+import Profil from '../assets/IMG/CV_PICTURE.jpg';
 const primaryColor = '#D892A0';
 
 const CurriculumVitae = () => {
